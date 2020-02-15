@@ -101,7 +101,7 @@
 			<a href="<?php e($l);?>"><?php e($n);?></a>
 			<?php endforeach;?>
             <label class="mdui-switch" style="position: absolute;right: 0">
-                <img src="http://pan.ilt.me/Images/static/table.png" style="width: 18px;position: relative;top: 5px;right: 5px;">
+                <img src="https://cdn.jsdelivr.net/gh/Vtrust/MyImages/20200215224146.png" style="width: 18px;position: relative;top: 5px;right: 5px;">
                 <input class="display-type" type="checkbox" <?php echo $_COOKIE['display_type'] == 'table' ? 'checked' : ''; ?>/>
                 <i class="mdui-switch-icon"></i>
             </label>
